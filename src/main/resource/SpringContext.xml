@@ -8,8 +8,10 @@
     </bean>
 
     <bean id="OutputHelper" class="cn.spr.cn.spr.demo.OutputHelper">
-      <!-- <property name="outputGenerator" ref="CsvOut"/>-->
+      <property name="outputGenerator" ref="CsvOutputGenerator"/>
 
     </bean>
+    <bean id="CsvOutputGenerator" class="cn.spr.cn.spr.demo.CsvOutputGenerator"/>
+          <bean id="JsonOutputGenerator" class="cn.spr.cn.spr.demo.JsonOutputGenerator"/>
 
 </beans>
