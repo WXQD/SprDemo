@@ -12,3 +12,11 @@ public class OutputHelper {
         this.outputGenerator=outputGenerator;
     }
 }
+
+//Setter 方法注入
+//public class OutputHelper{
+//    IOutputGenerator outputGenerator;
+//    public void setOutputGenerator(IOutputGenerator outputGenerator){
+//        this.outputGenerator=outputGenerator;
+//    }
+//}

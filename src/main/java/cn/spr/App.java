@@ -16,6 +16,7 @@ public class App {
       //  hell.printHello();
 
         OutputHelper outputHelper=(OutputHelper) context.getBean("OutputHelper");
-            outputHelper.generateOutput();
+          outputHelper.generateOutput();
+
     }
 }
